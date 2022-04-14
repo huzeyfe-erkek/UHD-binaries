@@ -5,9 +5,9 @@ Debug version of UHD binaries must be used to debug USRP code, otherwise it will
 REMINDER: Do NOT use these binaries for deployment. They come with ABSOLUTELY NO WARRANTY.
 
 ## Custom Parameters used in compiling
+* 64bit MSVC2017 is used
 * Boost 1.79 is linked statically
 * Libusb 1.0.26 is linked statically
-* MSVC2019 and MSVC2017 is used
 * Logging parameters ([?](https://files.ettus.com/manual/page_logging.html)) are changed as follows. 
 ### Release mode
 * UHD_LOG_CONSOLE_LEVEL, warning
