@@ -1,6 +1,6 @@
 # UHD binaries for testing purposes
 
-Debug version of UHD binaries must be used to debug USRP code, otherwise it will [crash](https://stackoverflow.com/questions/71692143/uhd-usrp-crash-in-debug-mode). Official Ettus releases don't contain debug builds and [compiling](https://files.ettus.com/manual/page_build_guide.html) it takes time. I am sharing UHD [v4.1.0.5](https://github.com/EttusResearch/uhd/tree/v4.1.0.5) builds for testing purposes. No source code has been changed except a one little tiny [error](https://github.com/EttusResearch/uhd/commit/61337817eb9c617db37fdbb16fb5f598e15a29a7) related to a test executable. 
+Debug version of UHD binaries must be used to debug USRP code, otherwise it will [crash](https://stackoverflow.com/questions/71692143/uhd-usrp-crash-in-debug-mode). Official Ettus releases don't contain debug builds and [compiling](https://files.ettus.com/manual/page_build_guide.html) it takes time. I am sharing UHD [v4.1.0.5](https://github.com/EttusResearch/uhd/tree/v4.1.0.5) custom-builds for testing purposes. No source code has been changed except a one little tiny [error](https://github.com/EttusResearch/uhd/commit/61337817eb9c617db37fdbb16fb5f598e15a29a7) related to a test executable. 
 
 REMINDER: Do NOT use these binaries for deployment. They come with ABSOLUTELY NO WARRANTY.
 
